@@ -12,13 +12,11 @@ public class EventosEmComum extends Evento {
 
     @Override
     public String toString() {
-        return "EventosEmComum{" +
-                "civilizacao1=" + civilizacao1 +
-                ", civilizacao2=" + civilizacao2 +
-                ", ano=" + ano +
-                ", nome='" + nome + '\'' +
-                ", descricao='" + descricao + '\'' +
-                '}';
+        return "EVENTO EM COMUM: " + nome +
+                ". Este evento ocorreu entre os países: " + civilizacao1 +
+                " e " + civilizacao2 +
+                ", no ano de " + ano + "." +
+                "\nSeu objetivo era: " + descricao;
     }
 
 	public Civilizacao getCivilizacao1() {

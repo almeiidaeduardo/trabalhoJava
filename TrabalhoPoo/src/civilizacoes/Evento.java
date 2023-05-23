@@ -18,7 +18,7 @@ public class Evento extends Civilizacao  {
 
 	@Override
 	public String toString() {
-		return "Evento: "+ nome + ".\nOcorreu em:" + (ano) + "\nDescri��o: " + descricao;
+		return "Evento: "+ nome + ".\nOcorreu em:" + ano + "\nDescricao: " + descricao;
 	}
 
 	public int getAno() {

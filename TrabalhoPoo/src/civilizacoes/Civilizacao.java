@@ -11,7 +11,7 @@ public class Civilizacao {
 	
 	@Override
 	public String toString() {
-		return "Civilizacao: " + pais + " - L�ngua: " + lingua;
+		return pais + " - L�ngua: " + lingua;
 	}
 
 	public String getPais() {
